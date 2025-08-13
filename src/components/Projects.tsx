@@ -17,14 +17,14 @@ const Projects = () => {
       id: 1,
       title: { first: "E-commerce website", second: "Tile Galaxy" },
       description: "Tile Galaxy is a WordPress-based eCommerce website built with Elementor and WooCommerce, designed to showcase and sell a premium range of ceramic, porcelain, vitrified, marble, and granite tiles. It features custom product categories, responsive design, SEO optimization, and an engaging blog to boost online visibility and customer engagement.",
-      image: "src/assets/tilegalaxy.jpeg",
+      image: "/assets/tilegalaxy.jpeg",
       learnMore: "https://tilegalaxy.in/"
     },
     {
       id: 2,
       title: { first: "Disney+ clone", second: "Pixify" },
       description: "Pixify is a Disney+ clone built with ReactJS and NodeJS that offers a seamless streaming experience with a user-friendly interface. It features content browsing, video playback, and user authentication, replicating core functionalities of popular OTT platforms.",
-      image: "src/assets/pixify.jpeg",
+      image: "/assets/pixify.jpeg",
 
       learnMore: "https://pixify-react-uslo.vercel.app/"
     },
@@ -32,21 +32,21 @@ const Projects = () => {
       id: 3,
       title: { first: "Flutter App", second: "SheRaksha" },
       description: "SheRaksha is a women’s safety mobile application built using Flutter, integrated with GPS, GSM, and IoT features for real-time location tracking and emergency alerts. It enables quick communication with emergency contacts, location sharing, and safety monitoring through a user-friendly interface.",
-      image: "src/assets/app.jpg",
+      image: "/assets/app.jpg",
       learnMore: "https://github.com/Anjali-projects"
     },
     {
       id: 4,
       title: { first: "Computer Vision + Machine Learning", second: "Ai Virtual Mouse" },
       description: "AI Virtual Mouse is a hand-gesture-based mouse controller built using OpenCV and Machine Learning that enables touch-free computer interaction. It replaces traditional input devices by recognizing real-time hand gestures for precise cursor control and clicks.",
-      image: "src/assets/mouse.jpg",
+      image: "/assets/mouse.jpg",
       learnMore: "https://github.com/Anjali-projects/AI_Virtual_Mouse"
     },
     {
       id: 5,
       title: { first: "Power BI", second: "Wave Provisioning Dashboard" },
       description: "Wave Provisioning Dashboard is an interactive data visualization tool developed with Power BI to monitor and analyze provisioning workflows. It provides real-time insights using real-time datasets and key performance metrics, helping streamline operations and improve decision-making efficiency.",
-      image: "src/assets/powerbi.png",
+      image: "/assets/powerbi.png",
       learnMore: "https://github.com/Anjali-projects"
     },
   ];

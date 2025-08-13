@@ -57,7 +57,7 @@ From creating visually stunning, user-friendly websites to crafting digital mark
         <div className="about-image-new">
           <div className="profile-image-container">
             <img 
-              src="src/assets/about.png" 
+              src="/assets/about.png" 
               alt="Anjali - Professional Portrait" 
               className="profile-image"
             />
