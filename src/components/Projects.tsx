@@ -22,6 +22,14 @@ const Projects = () => {
     },
     {
       id: 2,
+      title: { first: "Photography Portfolio", second: "Photographer Alex Rivers" },
+      description: "A professional photography portfolio website designed to showcase work, services, and achievements. Built with Bolt, it features a modern responsive layout, engaging image galleries, service details, and a contact section. The site highlights creativity, client success, and professional milestones while providing an elegant platform for booking and portfolio display.",
+      image: "/assets/photo.jpeg",
+
+      learnMore: "https://professional-photogr-x9yc.bolt.host/"
+    },
+    {
+      id: 3,
       title: { first: "Disney+ clone", second: "Pixify" },
       description: "Pixify is a Disney+ clone built with ReactJS and NodeJS that offers a seamless streaming experience with a user-friendly interface. It features content browsing, video playback, and user authentication, replicating core functionalities of popular OTT platforms.",
       image: "/assets/pixify.jpeg",
@@ -29,21 +37,30 @@ const Projects = () => {
       learnMore: "https://pixify-react-uslo.vercel.app/"
     },
     {
-      id: 3,
+      id: 4,
+      title: { first: "Cafe website", second: "Cafe Haven" },
+      description: "A modern café website built with Bolt to showcase signature coffee, artisan pastries, and the story behind the brand. Featuring a clean responsive layout, menu highlights, customer favorites, and an engaging 'Our Story' section, the site captures the warmth and community spirit of the café. It provides visitors with easy access to the menu, operating hours, and team details, creating a welcoming digital presence.",
+      image: "/assets/cafe.jpeg",
+
+      learnMore: "https://cafe-haven-modern-ca-j1gk.bolt.host/"
+    },
+    
+    {
+      id: 5,
       title: { first: "Flutter App", second: "SheRaksha" },
       description: "SheRaksha is a women’s safety mobile application built using Flutter, integrated with GPS, GSM, and IoT features for real-time location tracking and emergency alerts. It enables quick communication with emergency contacts, location sharing, and safety monitoring through a user-friendly interface.",
       image: "/assets/app.jpg",
       learnMore: "https://github.com/Anjali-projects"
     },
     {
-      id: 4,
+      id: 6,
       title: { first: "Computer Vision + Machine Learning", second: "Ai Virtual Mouse" },
       description: "AI Virtual Mouse is a hand-gesture-based mouse controller built using OpenCV and Machine Learning that enables touch-free computer interaction. It replaces traditional input devices by recognizing real-time hand gestures for precise cursor control and clicks.",
       image: "/assets/mouse.jpg",
       learnMore: "https://github.com/Anjali-projects/AI_Virtual_Mouse"
     },
     {
-      id: 5,
+      id: 7,
       title: { first: "Power BI", second: "Wave Provisioning Dashboard" },
       description: "Wave Provisioning Dashboard is an interactive data visualization tool developed with Power BI to monitor and analyze provisioning workflows. It provides real-time insights using real-time datasets and key performance metrics, helping streamline operations and improve decision-making efficiency.",
       image: "/assets/powerbi.png",
@@ -154,7 +171,7 @@ const Projects = () => {
                   variants={imageVariants}
                 >
                   <div className="image-container">
-                    {project.id === 3 ? (
+                    {project.id === 5 ? (
                       // Mobile frame for SheRaksha app
                       <div className="mobile-frame">
                         <div className="mobile-notch"></div>
